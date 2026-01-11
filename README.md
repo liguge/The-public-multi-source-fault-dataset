@@ -4,7 +4,7 @@
 
 1. **电机故障测试是使用Spectra-Quest机械故障模拟器进行的，如下图所示。** 
 
-![F4](E:\迅雷下载\F4.png)
+   ![img](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/F4.png)
 
 2. **原始数据文件包含24个文件（6种健康状态；4种工作条件），每个文件均为txt格式。 例如，文件名“H_5HZ”表示在5Hz工作条件下的健康电机。 健康状态由以下代码表示，处于六种健康状态的电机包括：** 
 
@@ -158,7 +158,7 @@
 
 1. **比例缩放的变距轴承机械平台由伺服电机和比例缩放的变距轴承组成，如图3所示。该轴承按照实际变距轴承1:6的比例缩小，确保了因故障影响的设备的一致性。电机通过行星减速器驱动轴承旋转，并通过特定控制系统调节其速度。健康轴承和具有各种故障的轴承的振动和声学数据依次采样收集。考虑到风场的随机性，实验的操作条件和载荷均源自领先风力发电机组制造商提供的实际工作环境，以确保实验数据的真实性和合理性。**
 
-   ![image-20260111094810078](C:\Users\11952\AppData\Roaming\Typora\typora-user-images\image-20260111094810078.png)
+   ![image-20260111094810078](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/image-20260111094810078.png)
 
 2. **收集了风力发电机桨距轴承在三种负载和两种转速下的11种故障类型的振动和声学数据：**
 
@@ -167,7 +167,7 @@
 
 3. **Cond_3\1rpm\Health\vibandacoustic\va(1).csv: 该文件包含了在Cond_1条件下、转速为1r/分钟时，健康状态下的轴承在x方向和y方向上的振动数据以及声学参数。**
 
-   ![image-20260111094411619](C:\Users\11952\AppData\Roaming\Typora\typora-user-images\image-20260111094411619.png)
+   ![image-20260111094411619](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/image-20260111094411619.png)
 
    在特定负载和转速下收集的振动和声学数据存储在“.csv”文件中。在每个采样时间，记录以下六个变量的“vib_y_direction_A”、“vib_x_direction_A”、“vib_y_direction_B”“vib_x_direction_B”和“声学”。
 
@@ -203,7 +203,7 @@
 
 1. **实验装置由四个主要子系统组成：电力电子逆变器、永磁同步电机（PMSM）、控制系统以及数据采集系统，如图9所示。该装置设计用于在各种运行条件下进行全面的故障模拟和数据收集。**
 
-   ![image-20260111115323856](C:\Users\11952\AppData\Roaming\Typora\typora-user-images\image-20260111115323856.png)
+   ![image-20260111115323856](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/image-20260111115323856.png)
 
 2. **采样频率**
 
@@ -213,7 +213,7 @@
 
    包含电流，电压和温度数据。
 
-   ![image-20260111121353614](C:\Users\11952\AppData\Roaming\Typora\typora-user-images\image-20260111121353614.png)
+   ![image-20260111121353614](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/image-20260111121353614.png)
 
    | 类别 | 位置        | 故障描述       | 样本数量 |
    | :--- | :---------- | :------------- | :------- |
@@ -253,7 +253,7 @@
 
 1. **如图 1 所示,展示了完整的回转支承故障试验 平台,其中包括回转支承、啮合小齿轮、回转支承底 座、换向箱、同步带、调速电机、调速器和负载装置等 各部件。 回转支承故障试验台的硬件均采用市面上 成熟稳定的通用型号。**
 
-   ![image-20260111170947701](C:\Users\11952\AppData\Roaming\Typora\typora-user-images\image-20260111170947701.png)
+   ![image-20260111170947701](https://github.com/liguge/The-public-multi-source-fault-dataset/blob/main/image-20260111170947701.png)
 
 2. **原始数据文件包含24个文件（4种健康状态；9种工作条件），每个 csv 文件一共包含 7 列数据,第 1、4、5、6 列 为竖直方向的振动信号,第 2、3 列为水平方向的振 动信号,第 7 列为声发射信号。 每个 csv 文件按采 集时间-故障类型-转速-倾覆力-每种工况采样次 数来进行先后命名, 如 “ 20221208-N-2rpm-0N-1 ”。** 
 
