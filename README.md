@@ -1,4 +1,4 @@
-# 故障诊断多模态数据集推荐
+# 故障诊断多模态数据集
 
 ## HUST电机多模态数据集
 
@@ -265,5 +265,6 @@
 6. **下载地址**
 
    - https://data.mendeley.com/datasets/hwg8v5j8t6/1
+
 
    - https://data.mendeley.com/datasets/rcxgmdxhbr/1
