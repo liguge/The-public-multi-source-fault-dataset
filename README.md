@@ -83,7 +83,7 @@
 
 - 变转速
 
-  | 数据类型     | 转速工况 | 故障位置   | 故障类型 | 时长（秒）/（每个文件） | 负载（Nm） | 转速（RPM）| 采样率（kHz） |
+  | 数据类型     | 转速工况 | 故障位置   | 故障类型 | 时长（s）/（每个文件） | 负载（Nm） | 转速（RPM）| 采样率（kHz） |
 |--------------|----------|------------|----------|------------------------|------------|------------|---------------|
 | 振动         | 恒定     | 轴承座A    | 正常     | 600                    | 0          | 3010       | 25.6          |
 |              |          |            | 内圈故障 | 600                    | 0          | 3010       | 25.6          |
@@ -144,7 +144,7 @@
 
    - **Chen, H., Li, C., Yang, W., Liu, J., An, X., & Zhao, Y. "Deep balanced cascade forest: An novel fault diagnosis method for data imbalance." ISA transactions, 126 (2022): 428-439.**
    - **H. Chen, X. -b. Wang and Z. -X. Yang, "Fast Robust Capsule Network With Dynamic Pruning and Multiscale Mutual Information Maximization for Compound-Fault Diagnosis," in IEEE/ASME Transactions on Mechatronics, vol. 28, no. 2, pp. 838-847, April 2023, doi: 10.1109/TMECH.2022.3214865.**
-   - **Yang, Z. X., Li, C. S., Wang, X. B., & Chen, H.* (2022). “Intelligent fault monitoring and diagnosis of tunnel fans using a hierarchical cascade forest,” ISA transactions, doi: 10.1016/j.isatra.2022.10.037.**
+   - **Yang, Z. X., Li, C. S., Wang, X. B., & Chen, H.(2022). “Intelligent fault monitoring and diagnosis of tunnel fans using a hierarchical cascade forest,” ISA transactions, doi: 10.1016/j.isatra.2022.10.037.**
    - **H. Chen, X. -B. Wang, J. -m. Li and Z. -X. Yang, "Dynamic Focusing Network for Semisupervised Mechanical Fault Diagnosis of Rotating Machinery," in IEEE Transactions on Industrial Informatics, vol. 20, no. 10, pp. 11575-11586, Oct. 2024, doi: 10.1109/TII.2024.3409443.**
    - **Chen, H., Wang, X. B., Yang, Z. X., & Li, J. M. (2024). Privacy-preserving intelligent fault diagnostics for wind turbine clusters using federated stacked capsule autoencoder. Expert Systems with Applications, 254, 124256.**
 
